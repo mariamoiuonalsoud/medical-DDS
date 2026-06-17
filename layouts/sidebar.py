@@ -8,34 +8,25 @@ def render_sidebar():
     with st.sidebar:
         st.title("DDSS")
         st.caption("Doctor Decision Support System")
+        pages = [
+        ("Dashboard", "dashboard"),
+        ("New Patient", "add patient"),
+        ("Your Patients", "view patients"),
+        ("Prescription Check", "validation"),]
 
-        '''page = st.radio(
-            "Navigate",
-            ["Dashboard", "New Patient", "Patient Records", "Prescription Check"],
-            index=["Dashboard", "New Patient", "Patient Records", "Prescription Check"].index(
-                st.session_state.current_page
-            ) if st.session_state.current_page in ["Dashboard", "New Patient", "Patient Records", "Prescription Check"] else 0,
-            label_visibility="collapsed",
-        )
-
-        page_map = {
-            "Dashboard": "dashboard",
-            "New Patient": "add patient",
-            "Patient Records": "view patients",
-            "Prescription Check": "validation",
-        }
-        '''
-        if st.button("Dashboard", use_container_width=True):
-            st.session_state.current_page = "dashboard"
-
-        if st.button("New Patient", use_container_width= True):
-            st.session_state.current_page = "add patient"
-
-        if st.button("Your Patients", use_container_width= True):
-            st.session_state.current_page= "view patients"
-
-        if st.button("Presciption Check", use_container_width= True):
-            st.session_state.current_page = "validation"
+        for label, target in pages:
+            is_active = st.session_state.current_page == target
+            if is_active:
+                st.markdown(
+                    f"<div style='background-color:#ff4b4b; border:1px solid #1a73e8; "
+                    f"border-radius:5px; padding:8px 12px; margin-bottom:7px;'>"
+                    f"<b>{label}</b></div>",
+                    unsafe_allow_html=True,
+                )
+            else:
+                if st.button(label, key=f"nav_{target}", use_container_width=True):
+                    st.session_state.current_page = target
+                    st.rerun()
 
 
 
