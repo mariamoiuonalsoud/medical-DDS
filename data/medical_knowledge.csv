@@ -1,0 +1,5 @@
+Drug_Name,Active_Ingredient,Therapeutic_Class,Safe_Alternatives,Dosage_Guidance
+Aspirin,Acetylsalicylic acid,Antiplatelet (Blood Thinner),Clopidogrel (Plavix),Take 75mg once daily with food to minimize gastric irritation.
+Ibuprofen,Ibuprofen,NSAID (Painkiller),Acetaminophen (Paracetamol),Take 500mg to 1000mg every 4 to 6 hours as needed. Maximum 4g per day.
+Warfarin,Warfarin,Anticoagulant (Blood Thinner),Apixaban (Eliquis),Take 5mg twice daily. Monitor vitamin K intake if shifting.
+Ceftriaxone,Ceftriaxone,Antibiotic (Cephalosporin),Azithromycin,Take 500mg on day 1 then 250mg daily for 4 days. Take 1 hour before food.
