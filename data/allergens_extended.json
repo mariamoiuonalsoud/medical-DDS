@@ -1,0 +1,489 @@
+[
+  {
+    "drug": "SACUBITRIL AND VALSARTAN",
+    "allergen_class": "ACE Inhibitor",
+    "cross_reactives": []
+  },
+  {
+    "drug": "CEFADROXIL",
+    "allergen_class": "Cephalosporin",
+    "cross_reactives": [
+      "CEFAZOLIN",
+      "CEFDINIR",
+      "CEFEPIME",
+      "CEFTRIAXONE SODIUM",
+      "CEFUROXIME AND DEXTROSE",
+      "CEFUROXIME SODIUM",
+      "CEPHALEXIN"
+    ]
+  },
+  {
+    "drug": "CEFAZOLIN",
+    "allergen_class": "Cephalosporin",
+    "cross_reactives": [
+      "CEFADROXIL",
+      "CEFDINIR",
+      "CEFEPIME",
+      "CEFTRIAXONE SODIUM",
+      "CEFUROXIME AND DEXTROSE",
+      "CEFUROXIME SODIUM",
+      "CEPHALEXIN"
+    ]
+  },
+  {
+    "drug": "CEFDINIR",
+    "allergen_class": "Cephalosporin",
+    "cross_reactives": [
+      "CEFADROXIL",
+      "CEFAZOLIN",
+      "CEFEPIME",
+      "CEFTRIAXONE SODIUM",
+      "CEFUROXIME AND DEXTROSE",
+      "CEFUROXIME SODIUM",
+      "CEPHALEXIN"
+    ]
+  },
+  {
+    "drug": "CEFEPIME",
+    "allergen_class": "Cephalosporin",
+    "cross_reactives": [
+      "CEFADROXIL",
+      "CEFAZOLIN",
+      "CEFDINIR",
+      "CEFTRIAXONE SODIUM",
+      "CEFUROXIME AND DEXTROSE",
+      "CEFUROXIME SODIUM",
+      "CEPHALEXIN"
+    ]
+  },
+  {
+    "drug": "CEFTRIAXONE SODIUM",
+    "allergen_class": "Cephalosporin",
+    "cross_reactives": [
+      "CEFADROXIL",
+      "CEFAZOLIN",
+      "CEFDINIR",
+      "CEFEPIME",
+      "CEFUROXIME AND DEXTROSE",
+      "CEFUROXIME SODIUM",
+      "CEPHALEXIN"
+    ]
+  },
+  {
+    "drug": "CEFUROXIME AND DEXTROSE",
+    "allergen_class": "Cephalosporin",
+    "cross_reactives": [
+      "CEFADROXIL",
+      "CEFAZOLIN",
+      "CEFDINIR",
+      "CEFEPIME",
+      "CEFTRIAXONE SODIUM",
+      "CEFUROXIME SODIUM",
+      "CEPHALEXIN"
+    ]
+  },
+  {
+    "drug": "CEFUROXIME SODIUM",
+    "allergen_class": "Cephalosporin",
+    "cross_reactives": [
+      "CEFADROXIL",
+      "CEFAZOLIN",
+      "CEFDINIR",
+      "CEFEPIME",
+      "CEFTRIAXONE SODIUM",
+      "CEFUROXIME AND DEXTROSE",
+      "CEPHALEXIN"
+    ]
+  },
+  {
+    "drug": "CEPHALEXIN",
+    "allergen_class": "Cephalosporin",
+    "cross_reactives": [
+      "CEFADROXIL",
+      "CEFAZOLIN",
+      "CEFDINIR",
+      "CEFEPIME",
+      "CEFTRIAXONE SODIUM",
+      "CEFUROXIME AND DEXTROSE",
+      "CEFUROXIME SODIUM"
+    ]
+  },
+  {
+    "drug": "ACETAMINOPHEN AND CODEINE PHOSPHATE",
+    "allergen_class": "Opioid",
+    "cross_reactives": [
+      "BUTALBITAL, ACETAMINOPHEN, CAFFEINE AND CODEINE PHOSPHATE",
+      "BUTALBITAL, ACETAMINOPHEN, CAFFEINE, AND CODEINE PHOSPHATE",
+      "BUTALBITAL, ASPIRIN, CAFEINE, AND CODEINE PHOSPHATE",
+      "CODEINE SULFATE",
+      "DARUNAVIR",
+      "DARUNAVIR ETHANOLATE AND COBICISTAT",
+      "FENTANYL",
+      "NALTREXONE HYDROCHLORIDE",
+      "VORICONAZOLE"
+    ]
+  },
+  {
+    "drug": "BUTALBITAL, ACETAMINOPHEN, CAFFEINE AND CODEINE PHOSPHATE",
+    "allergen_class": "Opioid",
+    "cross_reactives": [
+      "ACETAMINOPHEN AND CODEINE PHOSPHATE",
+      "BUTALBITAL, ACETAMINOPHEN, CAFFEINE, AND CODEINE PHOSPHATE",
+      "BUTALBITAL, ASPIRIN, CAFEINE, AND CODEINE PHOSPHATE",
+      "CODEINE SULFATE",
+      "DARUNAVIR",
+      "DARUNAVIR ETHANOLATE AND COBICISTAT",
+      "FENTANYL",
+      "NALTREXONE HYDROCHLORIDE",
+      "VORICONAZOLE"
+    ]
+  },
+  {
+    "drug": "BUTALBITAL, ACETAMINOPHEN, CAFFEINE, AND CODEINE PHOSPHATE",
+    "allergen_class": "Opioid",
+    "cross_reactives": [
+      "ACETAMINOPHEN AND CODEINE PHOSPHATE",
+      "BUTALBITAL, ACETAMINOPHEN, CAFFEINE AND CODEINE PHOSPHATE",
+      "BUTALBITAL, ASPIRIN, CAFEINE, AND CODEINE PHOSPHATE",
+      "CODEINE SULFATE",
+      "DARUNAVIR",
+      "DARUNAVIR ETHANOLATE AND COBICISTAT",
+      "FENTANYL",
+      "NALTREXONE HYDROCHLORIDE",
+      "VORICONAZOLE"
+    ]
+  },
+  {
+    "drug": "BUTALBITAL, ASPIRIN, CAFEINE, AND CODEINE PHOSPHATE",
+    "allergen_class": "Opioid",
+    "cross_reactives": [
+      "ACETAMINOPHEN AND CODEINE PHOSPHATE",
+      "BUTALBITAL, ACETAMINOPHEN, CAFFEINE AND CODEINE PHOSPHATE",
+      "BUTALBITAL, ACETAMINOPHEN, CAFFEINE, AND CODEINE PHOSPHATE",
+      "CODEINE SULFATE",
+      "DARUNAVIR",
+      "DARUNAVIR ETHANOLATE AND COBICISTAT",
+      "FENTANYL",
+      "NALTREXONE HYDROCHLORIDE",
+      "VORICONAZOLE"
+    ]
+  },
+  {
+    "drug": "CODEINE SULFATE",
+    "allergen_class": "Opioid",
+    "cross_reactives": [
+      "ACETAMINOPHEN AND CODEINE PHOSPHATE",
+      "BUTALBITAL, ACETAMINOPHEN, CAFFEINE AND CODEINE PHOSPHATE",
+      "BUTALBITAL, ACETAMINOPHEN, CAFFEINE, AND CODEINE PHOSPHATE",
+      "BUTALBITAL, ASPIRIN, CAFEINE, AND CODEINE PHOSPHATE",
+      "DARUNAVIR",
+      "DARUNAVIR ETHANOLATE AND COBICISTAT",
+      "FENTANYL",
+      "NALTREXONE HYDROCHLORIDE",
+      "VORICONAZOLE"
+    ]
+  },
+  {
+    "drug": "DARUNAVIR",
+    "allergen_class": "Opioid",
+    "cross_reactives": [
+      "ACETAMINOPHEN AND CODEINE PHOSPHATE",
+      "BUTALBITAL, ACETAMINOPHEN, CAFFEINE AND CODEINE PHOSPHATE",
+      "BUTALBITAL, ACETAMINOPHEN, CAFFEINE, AND CODEINE PHOSPHATE",
+      "BUTALBITAL, ASPIRIN, CAFEINE, AND CODEINE PHOSPHATE",
+      "CODEINE SULFATE",
+      "DARUNAVIR ETHANOLATE AND COBICISTAT",
+      "FENTANYL",
+      "NALTREXONE HYDROCHLORIDE",
+      "VORICONAZOLE"
+    ]
+  },
+  {
+    "drug": "DARUNAVIR ETHANOLATE AND COBICISTAT",
+    "allergen_class": "Opioid",
+    "cross_reactives": [
+      "ACETAMINOPHEN AND CODEINE PHOSPHATE",
+      "BUTALBITAL, ACETAMINOPHEN, CAFFEINE AND CODEINE PHOSPHATE",
+      "BUTALBITAL, ACETAMINOPHEN, CAFFEINE, AND CODEINE PHOSPHATE",
+      "BUTALBITAL, ASPIRIN, CAFEINE, AND CODEINE PHOSPHATE",
+      "CODEINE SULFATE",
+      "DARUNAVIR",
+      "FENTANYL",
+      "NALTREXONE HYDROCHLORIDE",
+      "VORICONAZOLE"
+    ]
+  },
+  {
+    "drug": "FENTANYL",
+    "allergen_class": "Opioid",
+    "cross_reactives": [
+      "ACETAMINOPHEN AND CODEINE PHOSPHATE",
+      "BUTALBITAL, ACETAMINOPHEN, CAFFEINE AND CODEINE PHOSPHATE",
+      "BUTALBITAL, ACETAMINOPHEN, CAFFEINE, AND CODEINE PHOSPHATE",
+      "BUTALBITAL, ASPIRIN, CAFEINE, AND CODEINE PHOSPHATE",
+      "CODEINE SULFATE",
+      "DARUNAVIR",
+      "DARUNAVIR ETHANOLATE AND COBICISTAT",
+      "NALTREXONE HYDROCHLORIDE",
+      "VORICONAZOLE"
+    ]
+  },
+  {
+    "drug": "NALTREXONE HYDROCHLORIDE",
+    "allergen_class": "Opioid",
+    "cross_reactives": [
+      "ACETAMINOPHEN AND CODEINE PHOSPHATE",
+      "BUTALBITAL, ACETAMINOPHEN, CAFFEINE AND CODEINE PHOSPHATE",
+      "BUTALBITAL, ACETAMINOPHEN, CAFFEINE, AND CODEINE PHOSPHATE",
+      "BUTALBITAL, ASPIRIN, CAFEINE, AND CODEINE PHOSPHATE",
+      "CODEINE SULFATE",
+      "DARUNAVIR",
+      "DARUNAVIR ETHANOLATE AND COBICISTAT",
+      "FENTANYL",
+      "VORICONAZOLE"
+    ]
+  },
+  {
+    "drug": "VORICONAZOLE",
+    "allergen_class": "Opioid",
+    "cross_reactives": [
+      "ACETAMINOPHEN AND CODEINE PHOSPHATE",
+      "BUTALBITAL, ACETAMINOPHEN, CAFFEINE AND CODEINE PHOSPHATE",
+      "BUTALBITAL, ACETAMINOPHEN, CAFFEINE, AND CODEINE PHOSPHATE",
+      "BUTALBITAL, ASPIRIN, CAFEINE, AND CODEINE PHOSPHATE",
+      "CODEINE SULFATE",
+      "DARUNAVIR",
+      "DARUNAVIR ETHANOLATE AND COBICISTAT",
+      "FENTANYL",
+      "NALTREXONE HYDROCHLORIDE"
+    ]
+  },
+  {
+    "drug": "CEFTRIAXONE SODIUM",
+    "allergen_class": "Penicillin",
+    "cross_reactives": []
+  },
+  {
+    "drug": "ASPIRIN AND EXTENDED-RELEASE DIPYRIDAMOLE",
+    "allergen_class": "Salicylate/NSAID",
+    "cross_reactives": [
+      "BUTALBITAL, ASPIRIN, CAFEINE, AND CODEINE PHOSPHATE",
+      "CELECOXIB",
+      "DICLOFENAC SODIUM",
+      "ETODOLAC",
+      "IBUPROFEN",
+      "IBUPROFEN AND FAMOTIDINE",
+      "INDOMETHACIN",
+      "KETOROLAC TROMETHAMINE",
+      "NABUMETONE",
+      "NAPROXEN",
+      "PIROXICAM"
+    ]
+  },
+  {
+    "drug": "BUTALBITAL, ASPIRIN, CAFEINE, AND CODEINE PHOSPHATE",
+    "allergen_class": "Salicylate/NSAID",
+    "cross_reactives": [
+      "ASPIRIN AND EXTENDED-RELEASE DIPYRIDAMOLE",
+      "CELECOXIB",
+      "DICLOFENAC SODIUM",
+      "ETODOLAC",
+      "IBUPROFEN",
+      "IBUPROFEN AND FAMOTIDINE",
+      "INDOMETHACIN",
+      "KETOROLAC TROMETHAMINE",
+      "NABUMETONE",
+      "NAPROXEN",
+      "PIROXICAM"
+    ]
+  },
+  {
+    "drug": "CELECOXIB",
+    "allergen_class": "Salicylate/NSAID",
+    "cross_reactives": [
+      "ASPIRIN AND EXTENDED-RELEASE DIPYRIDAMOLE",
+      "BUTALBITAL, ASPIRIN, CAFEINE, AND CODEINE PHOSPHATE",
+      "DICLOFENAC SODIUM",
+      "ETODOLAC",
+      "IBUPROFEN",
+      "IBUPROFEN AND FAMOTIDINE",
+      "INDOMETHACIN",
+      "KETOROLAC TROMETHAMINE",
+      "NABUMETONE",
+      "NAPROXEN",
+      "PIROXICAM"
+    ]
+  },
+  {
+    "drug": "DICLOFENAC SODIUM",
+    "allergen_class": "Salicylate/NSAID",
+    "cross_reactives": [
+      "ASPIRIN AND EXTENDED-RELEASE DIPYRIDAMOLE",
+      "BUTALBITAL, ASPIRIN, CAFEINE, AND CODEINE PHOSPHATE",
+      "CELECOXIB",
+      "ETODOLAC",
+      "IBUPROFEN",
+      "IBUPROFEN AND FAMOTIDINE",
+      "INDOMETHACIN",
+      "KETOROLAC TROMETHAMINE",
+      "NABUMETONE",
+      "NAPROXEN",
+      "PIROXICAM"
+    ]
+  },
+  {
+    "drug": "ETODOLAC",
+    "allergen_class": "Salicylate/NSAID",
+    "cross_reactives": [
+      "ASPIRIN AND EXTENDED-RELEASE DIPYRIDAMOLE",
+      "BUTALBITAL, ASPIRIN, CAFEINE, AND CODEINE PHOSPHATE",
+      "CELECOXIB",
+      "DICLOFENAC SODIUM",
+      "IBUPROFEN",
+      "IBUPROFEN AND FAMOTIDINE",
+      "INDOMETHACIN",
+      "KETOROLAC TROMETHAMINE",
+      "NABUMETONE",
+      "NAPROXEN",
+      "PIROXICAM"
+    ]
+  },
+  {
+    "drug": "IBUPROFEN",
+    "allergen_class": "Salicylate/NSAID",
+    "cross_reactives": [
+      "ASPIRIN AND EXTENDED-RELEASE DIPYRIDAMOLE",
+      "BUTALBITAL, ASPIRIN, CAFEINE, AND CODEINE PHOSPHATE",
+      "CELECOXIB",
+      "DICLOFENAC SODIUM",
+      "ETODOLAC",
+      "IBUPROFEN AND FAMOTIDINE",
+      "INDOMETHACIN",
+      "KETOROLAC TROMETHAMINE",
+      "NABUMETONE",
+      "NAPROXEN",
+      "PIROXICAM"
+    ]
+  },
+  {
+    "drug": "IBUPROFEN AND FAMOTIDINE",
+    "allergen_class": "Salicylate/NSAID",
+    "cross_reactives": [
+      "ASPIRIN AND EXTENDED-RELEASE DIPYRIDAMOLE",
+      "BUTALBITAL, ASPIRIN, CAFEINE, AND CODEINE PHOSPHATE",
+      "CELECOXIB",
+      "DICLOFENAC SODIUM",
+      "ETODOLAC",
+      "IBUPROFEN",
+      "INDOMETHACIN",
+      "KETOROLAC TROMETHAMINE",
+      "NABUMETONE",
+      "NAPROXEN",
+      "PIROXICAM"
+    ]
+  },
+  {
+    "drug": "INDOMETHACIN",
+    "allergen_class": "Salicylate/NSAID",
+    "cross_reactives": [
+      "ASPIRIN AND EXTENDED-RELEASE DIPYRIDAMOLE",
+      "BUTALBITAL, ASPIRIN, CAFEINE, AND CODEINE PHOSPHATE",
+      "CELECOXIB",
+      "DICLOFENAC SODIUM",
+      "ETODOLAC",
+      "IBUPROFEN",
+      "IBUPROFEN AND FAMOTIDINE",
+      "KETOROLAC TROMETHAMINE",
+      "NABUMETONE",
+      "NAPROXEN",
+      "PIROXICAM"
+    ]
+  },
+  {
+    "drug": "KETOROLAC TROMETHAMINE",
+    "allergen_class": "Salicylate/NSAID",
+    "cross_reactives": [
+      "ASPIRIN AND EXTENDED-RELEASE DIPYRIDAMOLE",
+      "BUTALBITAL, ASPIRIN, CAFEINE, AND CODEINE PHOSPHATE",
+      "CELECOXIB",
+      "DICLOFENAC SODIUM",
+      "ETODOLAC",
+      "IBUPROFEN",
+      "IBUPROFEN AND FAMOTIDINE",
+      "INDOMETHACIN",
+      "NABUMETONE",
+      "NAPROXEN",
+      "PIROXICAM"
+    ]
+  },
+  {
+    "drug": "NABUMETONE",
+    "allergen_class": "Salicylate/NSAID",
+    "cross_reactives": [
+      "ASPIRIN AND EXTENDED-RELEASE DIPYRIDAMOLE",
+      "BUTALBITAL, ASPIRIN, CAFEINE, AND CODEINE PHOSPHATE",
+      "CELECOXIB",
+      "DICLOFENAC SODIUM",
+      "ETODOLAC",
+      "IBUPROFEN",
+      "IBUPROFEN AND FAMOTIDINE",
+      "INDOMETHACIN",
+      "KETOROLAC TROMETHAMINE",
+      "NAPROXEN",
+      "PIROXICAM"
+    ]
+  },
+  {
+    "drug": "NAPROXEN",
+    "allergen_class": "Salicylate/NSAID",
+    "cross_reactives": [
+      "ASPIRIN AND EXTENDED-RELEASE DIPYRIDAMOLE",
+      "BUTALBITAL, ASPIRIN, CAFEINE, AND CODEINE PHOSPHATE",
+      "CELECOXIB",
+      "DICLOFENAC SODIUM",
+      "ETODOLAC",
+      "IBUPROFEN",
+      "IBUPROFEN AND FAMOTIDINE",
+      "INDOMETHACIN",
+      "KETOROLAC TROMETHAMINE",
+      "NABUMETONE",
+      "PIROXICAM"
+    ]
+  },
+  {
+    "drug": "PIROXICAM",
+    "allergen_class": "Salicylate/NSAID",
+    "cross_reactives": [
+      "ASPIRIN AND EXTENDED-RELEASE DIPYRIDAMOLE",
+      "BUTALBITAL, ASPIRIN, CAFEINE, AND CODEINE PHOSPHATE",
+      "CELECOXIB",
+      "DICLOFENAC SODIUM",
+      "ETODOLAC",
+      "IBUPROFEN",
+      "IBUPROFEN AND FAMOTIDINE",
+      "INDOMETHACIN",
+      "KETOROLAC TROMETHAMINE",
+      "NABUMETONE",
+      "NAPROXEN"
+    ]
+  },
+  {
+    "drug": "EZETIMIBE",
+    "allergen_class": "Statin",
+    "cross_reactives": []
+  },
+  {
+    "drug": "CIDOFOVIR ANHYDROUS",
+    "allergen_class": "Sulfa",
+    "cross_reactives": [
+      "CIDOFOVIR DIHYDRATE"
+    ]
+  },
+  {
+    "drug": "CIDOFOVIR DIHYDRATE",
+    "allergen_class": "Sulfa",
+    "cross_reactives": [
+      "CIDOFOVIR ANHYDROUS"
+    ]
+  }
+]

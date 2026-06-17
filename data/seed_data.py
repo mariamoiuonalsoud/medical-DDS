@@ -1,7 +1,9 @@
-from config.database import  drugs_db, interactions_db, allergens_db, condition_rules_db, knowledge_db
-import json
-import os
 import sys
+import os
+sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
+
+from config.database import  drugs_db, interactions_db, allergens_db, condition_rules_db, knowledge_db, conditions_db, common_allergens_db
+import json
 
 JSON_PATH = os.path.join(os.path.dirname(__file__), "drug_names.json")
 
@@ -183,8 +185,78 @@ def seed_drugs_from_json(filepath=JSON_PATH):
   
 
 
+def seed_conditions_from_json(filepath=None):
+    if filepath is None:
+        filepath = os.path.join(os.path.dirname(__file__), "icd10_conditions.json")
+    if not os.path.exists(filepath):
+        print(f"Cannot seed conditions: file not found at '{filepath}'")
+        print("Run 'python data/scrape_icd10.py' first to generate the JSON file.")
+        return
+    with open(filepath, "r", encoding="utf-8") as f:
+        conditions = json.load(f)
+    deleted = conditions_db.delete_many({})
+    print(f"Cleared {deleted.deleted_count} existing conditions from MongoDB")
+    conditions_db.insert_many(conditions)
+    print(f"Seeded {len(conditions)} conditions into MongoDB from {filepath}")
+
+
+def seed_allergens_from_json(filepath=None):
+    if filepath is None:
+        filepath = os.path.join(os.path.dirname(__file__), "allergens_extended.json")
+
+    # Start with the curated hardcoded allergens (well-validated)
+    combined = list(ALLERGENS)
+
+    # Merge in scraped data if available
+    if os.path.exists(filepath):
+        with open(filepath, "r", encoding="utf-8") as f:
+            scraped = json.load(f)
+        # Add scraped entries that don't duplicate existing ones
+        existing_keys = {(a["drug"].lower(), a["allergen_class"]) for a in combined}
+        for a in scraped:
+            key = (a["drug"].lower(), a["allergen_class"])
+            if key not in existing_keys:
+                combined.append(a)
+                existing_keys.add(key)
+        print(f"Merged {len(scraped)} scraped entries ({len(combined) - len(ALLERGENS)} new)")
+    else:
+        print(f"Scraped file not found at '{filepath}', using curated data only.")
+
+    deleted = allergens_db.delete_many({})
+    print(f"Cleared {deleted.deleted_count} existing allergens from MongoDB")
+    allergens_db.insert_many(combined)
+    print(f"Seeded {len(combined)} allergens into MongoDB ({len(combined)} total)")
+
+
+def seed_common_allergens(filepath=None):
+    if filepath is None:
+        filepath = os.path.join(os.path.dirname(__file__), "common_allergens.json")
+    if not os.path.exists(filepath):
+        print(f"Cannot seed common allergens: file not found at '{filepath}'")
+        print("Run 'python data/scrape_common_allergens.py' first to generate the JSON file.")
+        return
+    with open(filepath, "r", encoding="utf-8") as f:
+        allergens = json.load(f)
+    deleted = common_allergens_db.delete_many({})
+    print(f"Cleared {deleted.deleted_count} existing common allergens from MongoDB")
+    common_allergens_db.insert_many(allergens)
+    print(f"Seeded {len(allergens)} common allergens into MongoDB from {filepath}")
+
+
 if __name__ == "__main__":
     if "--drugs" in sys.argv:
         seed_drugs_from_json()
+    elif "--conditions" in sys.argv:
+        seed_conditions_from_json()
+    elif "--common-allergens" in sys.argv:
+        seed_common_allergens()
+    elif "--allergens" in sys.argv:
+        seed_allergens_from_json()
+    elif "--all" in sys.argv:
+        seed_all()
+        seed_drugs_from_json()
+        seed_conditions_from_json()
+        seed_allergens_from_json()
+        seed_common_allergens()
     else:
         seed_all()

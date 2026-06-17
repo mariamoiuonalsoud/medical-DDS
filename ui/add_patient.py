@@ -1,12 +1,20 @@
-from services.patient_service import add_patient, get_all_allergens, get_all_drugs
+from services.patient_service import add_patient, get_all_allergens, get_all_allergen_drugs, get_all_drugs, get_all_conditions, get_all_common_allergens
 import streamlit as st
 import datetime
 
-chronic_conditions_list = [
+FALLBACK_CONDITIONS = [
     "Diabetes", "Hypertension", "Asthma", "COPD",
     "Chronic Kidney Disease", "Heart Failure",
     "Hypothyroidism", "Hyperthyroidism", "Arthritis", "Cancer"
 ]
+
+def get_conditions():
+    db_conditions = get_all_conditions()
+    return db_conditions if db_conditions else FALLBACK_CONDITIONS
+
+def get_common_allergens():
+    db_allergens = get_all_common_allergens()
+    return db_allergens if db_allergens else COMMON_ALLERGENS
 
 ALLERGENS_MAP = {
     "Penicillin": ["Amoxicillin", "Ampicillin", "Penicillin V"],
@@ -16,6 +24,14 @@ ALLERGENS_MAP = {
     "ACE Inhibitors": ["Lisinopril", "Enalapril", "Ramipril"],
     "Statins": ["Atorvastatin", "Simvastatin", "Rosuvastatin"],
 }
+
+COMMON_ALLERGENS = [
+    "Peanuts", "Tree Nuts", "Milk", "Eggs", "Soy", "Wheat",
+    "Fish", "Shellfish", "Sesame", "Latex", "Bee Stings",
+    "Pollen", "Dust Mites", "Mold", "Pet Dander",
+    "Sulfites", "MSG", "Food Dye", "Cockroach",
+    "Insect Stings", "Nickel", "Fragrance", "Poison Ivy",
+]
 
 
 def render_add_patient():
@@ -49,9 +65,10 @@ def render_add_patient():
         age = today.year - dob.year - ((today.month, today.day) < (dob.month, dob.day))
 
         st.subheader("Chronic Conditions")
+        conditions_opts = get_conditions()
         chronic_conditions = st.multiselect(
             "Chronic Conditions",
-            options=chronic_conditions_list,
+            options=conditions_opts,
             placeholder="Select conditions...",
         )
 
@@ -63,8 +80,13 @@ def render_add_patient():
         )
 
         st.subheader("Allergies")
-        allergen_options = list(ALLERGENS_MAP.keys()) + get_all_allergens()
-        allergen_options = list(dict.fromkeys(allergen_options))
+        allergen_options = (
+            list(ALLERGENS_MAP.keys())
+            + get_all_allergens()
+            + get_all_allergen_drugs()
+            + get_common_allergens()
+        )
+        allergen_options = sorted(set(allergen_options))
         allergies = st.multiselect(
             "Select Allergies",
             options=allergen_options,

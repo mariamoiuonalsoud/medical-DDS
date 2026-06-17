@@ -1,4 +1,4 @@
-from config.database import patients_db, medications_db, get_next_sequence, allergens_db, drugs_db
+from config.database import patients_db, medications_db, get_next_sequence, allergens_db, drugs_db, conditions_db, common_allergens_db
 
 def add_patient(name, age, gender, chronic_conditions,
                 current_medications = None, allergies = None, medical_history = ""):
@@ -42,3 +42,15 @@ def get_all_drugs():
 def get_all_allergens():
     allergens = list(allergens_db.find({}, {'_id': 0, "allergen_class":1}))
     return [a["allergen_class"] for a in allergens]
+
+def get_all_allergen_drugs():
+    drugs = list(allergens_db.find({}, {'_id': 0, "drug": 1}))
+    return sorted(set(d["drug"] for d in drugs))
+
+def get_all_conditions():
+    conditions = list(conditions_db.find({}, {"_id": 0, "code": 1, "name": 1}))
+    return [c["name"] for c in conditions]
+
+def get_all_common_allergens():
+    items = list(common_allergens_db.find({}, {"_id": 0, "allergen": 1}))
+    return sorted(set(a["allergen"] for a in items))

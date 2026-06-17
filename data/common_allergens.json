@@ -1,0 +1,352 @@
+[
+  {
+    "allergen": "Dimethylaminopropylamine",
+    "category": "Chemical",
+    "source": "Clinical"
+  },
+  {
+    "allergen": "Formaldehyde",
+    "category": "Chemical",
+    "source": "Clinical"
+  },
+  {
+    "allergen": "Fragrance",
+    "category": "Chemical",
+    "source": "Clinical"
+  },
+  {
+    "allergen": "Gold",
+    "category": "Chemical",
+    "source": "Clinical"
+  },
+  {
+    "allergen": "Nickel",
+    "category": "Chemical",
+    "source": "Clinical"
+  },
+  {
+    "allergen": "Paraphenylenediamine",
+    "category": "Chemical",
+    "source": "Clinical"
+  },
+  {
+    "allergen": "Sulfates",
+    "category": "Chemical",
+    "source": "Clinical"
+  },
+  {
+    "allergen": "Tartrazine",
+    "category": "Chemical",
+    "source": "Clinical"
+  },
+  {
+    "allergen": "ACE Inhibitors",
+    "category": "Drug Class",
+    "source": "Clinical"
+  },
+  {
+    "allergen": "Cephalosporins",
+    "category": "Drug Class",
+    "source": "Clinical"
+  },
+  {
+    "allergen": "Local Anesthetics",
+    "category": "Drug Class",
+    "source": "Clinical"
+  },
+  {
+    "allergen": "NSAIDs",
+    "category": "Drug Class",
+    "source": "Clinical"
+  },
+  {
+    "allergen": "Opioids",
+    "category": "Drug Class",
+    "source": "Clinical"
+  },
+  {
+    "allergen": "Penicillin",
+    "category": "Drug Class",
+    "source": "Clinical"
+  },
+  {
+    "allergen": "Radiocontrast Media",
+    "category": "Drug Class",
+    "source": "Clinical"
+  },
+  {
+    "allergen": "Statins",
+    "category": "Drug Class",
+    "source": "Clinical"
+  },
+  {
+    "allergen": "Sulfonamides",
+    "category": "Drug Class",
+    "source": "Clinical"
+  },
+  {
+    "allergen": "Cat Dander",
+    "category": "Environmental",
+    "source": "Clinical"
+  },
+  {
+    "allergen": "Cockroach",
+    "category": "Environmental",
+    "source": "Clinical"
+  },
+  {
+    "allergen": "Dog Dander",
+    "category": "Environmental",
+    "source": "Clinical"
+  },
+  {
+    "allergen": "Dust Mites",
+    "category": "Environmental",
+    "source": "Clinical"
+  },
+  {
+    "allergen": "Grass Pollen",
+    "category": "Environmental",
+    "source": "Clinical"
+  },
+  {
+    "allergen": "Latex",
+    "category": "Environmental",
+    "source": "Clinical"
+  },
+  {
+    "allergen": "Mold",
+    "category": "Environmental",
+    "source": "Clinical"
+  },
+  {
+    "allergen": "Pet Dander",
+    "category": "Environmental",
+    "source": "Clinical"
+  },
+  {
+    "allergen": "Pollen",
+    "category": "Environmental",
+    "source": "Clinical"
+  },
+  {
+    "allergen": "Ragweed Pollen",
+    "category": "Environmental",
+    "source": "Clinical"
+  },
+  {
+    "allergen": "Tree Pollen",
+    "category": "Environmental",
+    "source": "Clinical"
+  },
+  {
+    "allergen": "Almonds",
+    "category": "Food",
+    "source": "Clinical"
+  },
+  {
+    "allergen": "Avocado",
+    "category": "Food",
+    "source": "Clinical"
+  },
+  {
+    "allergen": "Banana",
+    "category": "Food",
+    "source": "Clinical"
+  },
+  {
+    "allergen": "Brazil Nuts",
+    "category": "Food",
+    "source": "Clinical"
+  },
+  {
+    "allergen": "Buckwheat",
+    "category": "Food",
+    "source": "Clinical"
+  },
+  {
+    "allergen": "Cashews",
+    "category": "Food",
+    "source": "Clinical"
+  },
+  {
+    "allergen": "Celery",
+    "category": "Food",
+    "source": "Clinical"
+  },
+  {
+    "allergen": "Corn",
+    "category": "Food",
+    "source": "Clinical"
+  },
+  {
+    "allergen": "Crustaceans",
+    "category": "Food",
+    "source": "Clinical"
+  },
+  {
+    "allergen": "Egg White",
+    "category": "Food",
+    "source": "Clinical"
+  },
+  {
+    "allergen": "Egg Yolk",
+    "category": "Food",
+    "source": "Clinical"
+  },
+  {
+    "allergen": "Eggs",
+    "category": "Food",
+    "source": "Clinical"
+  },
+  {
+    "allergen": "Fish",
+    "category": "Food",
+    "source": "Clinical"
+  },
+  {
+    "allergen": "Garlic",
+    "category": "Food",
+    "source": "Clinical"
+  },
+  {
+    "allergen": "Kiwi",
+    "category": "Food",
+    "source": "Clinical"
+  },
+  {
+    "allergen": "Lupin",
+    "category": "Food",
+    "source": "Clinical"
+  },
+  {
+    "allergen": "Macadamia Nuts",
+    "category": "Food",
+    "source": "Clinical"
+  },
+  {
+    "allergen": "Mango",
+    "category": "Food",
+    "source": "Clinical"
+  },
+  {
+    "allergen": "Milk",
+    "category": "Food",
+    "source": "Clinical"
+  },
+  {
+    "allergen": "Mollusks",
+    "category": "Food",
+    "source": "Clinical"
+  },
+  {
+    "allergen": "Mustard",
+    "category": "Food",
+    "source": "Clinical"
+  },
+  {
+    "allergen": "Oats",
+    "category": "Food",
+    "source": "Clinical"
+  },
+  {
+    "allergen": "Peanuts",
+    "category": "Food",
+    "source": "Clinical"
+  },
+  {
+    "allergen": "Pecans",
+    "category": "Food",
+    "source": "Clinical"
+  },
+  {
+    "allergen": "Pistachios",
+    "category": "Food",
+    "source": "Clinical"
+  },
+  {
+    "allergen": "Pork",
+    "category": "Food",
+    "source": "Clinical"
+  },
+  {
+    "allergen": "Poultry",
+    "category": "Food",
+    "source": "Clinical"
+  },
+  {
+    "allergen": "Red Meat",
+    "category": "Food",
+    "source": "Clinical"
+  },
+  {
+    "allergen": "Rice",
+    "category": "Food",
+    "source": "Clinical"
+  },
+  {
+    "allergen": "Sesame",
+    "category": "Food",
+    "source": "Clinical"
+  },
+  {
+    "allergen": "Shellfish",
+    "category": "Food",
+    "source": "Clinical"
+  },
+  {
+    "allergen": "Soy",
+    "category": "Food",
+    "source": "Clinical"
+  },
+  {
+    "allergen": "Strawberries",
+    "category": "Food",
+    "source": "Clinical"
+  },
+  {
+    "allergen": "Sulfites",
+    "category": "Food",
+    "source": "Clinical"
+  },
+  {
+    "allergen": "Tomato",
+    "category": "Food",
+    "source": "Clinical"
+  },
+  {
+    "allergen": "Tree Nuts",
+    "category": "Food",
+    "source": "Clinical"
+  },
+  {
+    "allergen": "Walnuts",
+    "category": "Food",
+    "source": "Clinical"
+  },
+  {
+    "allergen": "Wheat",
+    "category": "Food",
+    "source": "Clinical"
+  },
+  {
+    "allergen": "Bee Stings",
+    "category": "Insect",
+    "source": "Clinical"
+  },
+  {
+    "allergen": "Fire Ants",
+    "category": "Insect",
+    "source": "Clinical"
+  },
+  {
+    "allergen": "Mosquito Bites",
+    "category": "Insect",
+    "source": "Clinical"
+  },
+  {
+    "allergen": "Wasp Stings",
+    "category": "Insect",
+    "source": "Clinical"
+  }
+]
