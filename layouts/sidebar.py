@@ -18,7 +18,7 @@ def render_sidebar():
             is_active = st.session_state.current_page == target
             if is_active:
                 st.markdown(
-                    f"<div style='background-color:#ff4b4b; border:1px solid #1a73e8; "
+                    f"<div style='background-color:#4b4bff; border:1px solid #1a73e8; "
                     f"border-radius:5px; padding:8px 12px; margin-bottom:7px;'>"
                     f"<b>{label}</b></div>",
                     unsafe_allow_html=True,
